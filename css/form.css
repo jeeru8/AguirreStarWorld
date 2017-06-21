@@ -1,0 +1,15 @@
+/* ==== header styling ==== */
+element.style {
+    height: 50px !important;
+}
+/* ==== parallax styling ==== */
+.block {
+  	height: 200px;
+  	width: 100%;
+}
+
+/* ==== Form styling ==== */
+.titleForm {	
+	margin-top: 20px;
+  	color: #199EB8
+}
