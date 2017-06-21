@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Passenger Application | Aguirre Star Worldwide Travel Corporation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    
+    <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+    <meta property="og:title" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
+    
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+    <!-- Page Content
+    ================================================== -->
+    
+    <!-- Header -->
+    <header id="header">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div id="logo" class="pull-left">
+            <a href="index.html">Aguirre Logo Here</a>
+            <!-- Uncomment below if you prefer to use a text image -->
+            <!--<h1><a href="#hero">Bell</a></h1>-->
+          </div>
+            
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li class="menu-has-children"><a href="">Main Menu</a>
+                <ul>
+                  <li><a href="#">Menu 1</a></li>
+                  <li><a href="#">Menu 2</a></li>
+
+                </ul>
+              </li>
+              <li><a href="#features">Airline Ticketing</a></li>
+              <li class="menu-has-children"><a href="passenger_application.html">Passenger Application</a>
+                <!-- <ul>
+                  <li><a href="">Menu 1</a></li>
+
+                </ul> -->
+              </li>
+              
+              <li><a href="#portfolio">Tours</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </nav><!-- #nav-menu-container -->
+          
+          <nav class="nav social-nav pull-right hidden-sm-down">
+            <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+          </nav>
+        </div>
+      </div>
+    </header><!-- #header -->
+
+    <!-- Parallax -->
+    <div class="block bg-primary block-pd-lg block-bg-overlay" data-bg-img="img/parallax-bg.jpg" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">
+    </div>
+    
+    <!-- /Parallax -->
+
+    <!-- application form -->
+    <form class="container">
+      <h2 class="titleForm text-center">
+        Passenger Application Form
+      </h2>
+
+      <div class="form-group">
+        <div class="row marginForm">
+          <!-- name -->
+          <label for="lastName" class="col-sm-2 form-control-label">Name</label>
+          
+          <div class="col-sm-10 col-lg-3">
+            <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <input type="text" class="form-control" id="firstName" placeholder="First Name">
+          </div>
+          <div class="col-sm-12 col-lg-3">
+            <input type="text" class="form-control" id="middleName" placeholder="Middle Name">
+          </div>
+          <!-- name -->
+        </div>
+
+        <div class="row marginForm">
+          <!-- birthdate -->
+          <label for="birthdate" class="col-sm-2 col-lg-2 form-control-label">Birthdate</label>
+          <div class="col-sm-10 col-lg-3">
+            <input type="date" class="form-control" id="birthdate">
+          </div>
+          <!-- birthdate -->
+
+          <!-- age -->
+          <label for="age" class="col-sm-2 col-lg-1 form-control-label">Age</label>
+          <div class="col-sm-10 col-lg-3">
+            <input type="text" class="form-control" id="age" placeholder="">
+          </div>
+          <!-- age -->
+
+          <!-- gender -->
+          <label for="gender" class="col-sm-2 col-lg-1 form-control-label">Gender</label>
+          <div class="col-sm-10 col-lg-2">
+            <select class="custom-select">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <!-- gender -->
+        </div>
+
+        <div class="row marginForm">
+          <!-- birthplace -->
+          <label for="birthplace" class="col-sm-2 form-control-label">Birthplace</label>
+          
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="birthplace" placeholder="">
+          </div>
+          <!-- birthplace -->
+        </div>
+
+        <div class="row marginForm">
+          <!-- Passport -->
+          <label for="passport" class="col-sm-2 col-lg-2 form-control-label">Passport Number</label>
+          
+          <div class="col-sm-10 col-lg-4">
+            <input type="text" class="form-control" id="passport" placeholder="">
+          </div>
+          <!-- Passport -->
+
+          <!-- Expiry date -->
+          <label for="passportExpiry" class="col-sm-2 col-lg-2 form-control-label">Passport Expiry Date</label>
+          
+          <div class="col-sm-10 col-lg-4">
+            <input type="date" class="form-control" id="passportExpiry" placeholder="">
+          </div>
+          <!-- Expiry date -->
+        </div>
+
+        <div class="row marginForm">
+          <!-- Mobile Number -->
+          <label for="mobileNumber" class="col-sm-2 col-lg-2 form-control-label">Mobile Number</label>
+          
+          <div class="col-sm-10 col-lg-4">
+            <input type="text" class="form-control" id="mobileNumber" placeholder="+639XXXXXXXXX">
+          </div>
+          <!-- Mobile Number -->
+
+          <!-- Email address -->
+          <label for="email" class="col-sm-2 col-lg-2 form-control-label">Email address</label>
+          
+          <div class="col-sm-10 col-lg-4">
+            <input type="email" class="form-control" id="email" placeholder="">
+          </div>
+          <!-- Email address -->
+        </div>
+
+        <div class="row marginForm">
+          <!-- address -->
+          <label for="address" class="col-sm-2 form-control-label">Address</label>
+          
+          <div class="col-sm-10 col-lg-3">
+            <input type="text" class="form-control" id="address" placeholder="Unit/Block/Building No./Tower/Street">
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <input type="text" class="form-control" id="firstName" placeholder="Village/Residential Name/Brgy">
+          </div>
+          <div class="col-sm-12 col-lg-3">
+            <input type="text" class="form-control" id="middleName" placeholder="City/State">
+          </div>
+          <!-- address -->
+        </div>
+
+        <div class="row marginForm">
+          <!-- country -->
+          <label for="country" class="col-sm-2 form-control-label">Country</label>
+          <div class="col-sm-12 col-lg-4">
+            <input type="text" class="form-control" id="country" placeholder="">
+          </div>
+          <!-- country -->
+
+          <!-- zip code -->
+          <label for="zipCode" class="col-sm-2 form-control-label">Zip Code</label>
+          <div class="col-sm-12 col-lg-4">
+            <input type="text" class="form-control" id="zipCode" placeholder="">
+          </div>
+          <!-- zip code -->
+        </div>
+
+        <div class="row marginForm">
+          <!-- plan -->
+          <label class="col-sm-2 col-lg-1 form-control-label">Plan</label>
+          <div class="col-sm-10 col-lg-3">
+            <select class="custom-select">
+              <option value="oneWay">One Way</option>
+              <option value="roundTrip">Round Trip</option>
+            </select>
+          </div>
+          <!-- plan -->
+
+          <!-- Catergory -->
+          <label class="col-sm-2 col-lg-1 form-control-label">Catergory</label>
+          <div class="col-sm-10 col-lg-3" >
+            <select class="custom-select">
+              <option value="domestic">Domestic</option>
+              <option value="international">International</option>
+            </select>
+          </div>
+          <!-- Catergory -->
+
+          <!-- Classification --> 
+          <label class="col-sm-2 col-lg-2 form-control-label">Flight Classification</label>
+          <div class="col-sm-10 col-lg-2" >
+            <select class="custom-select">
+              <option value="economy">Economy</option>
+              <option value="firstClass">First Class</option>
+            </select>
+          </div>
+          <!-- Classification -->
+        </div>
+
+        <div class="row marginForm">
+          <!-- pax of adult -->
+          <label for="paxAdult" class="col-sm-4 form-control-label">Number of pax of adult</label>
+          
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="paxAdult" placeholder="">
+          </div>
+          <!-- pax of adult -->
+        </div>
+
+        <div class="row marginForm">  
+          <!-- pax of children -->
+          <label for="paxChildren" class="col-sm-4 form-control-label">Number of pax of children<small> (up to 11 years of age)</small></label>
+          
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="paxChildren" placeholder="">
+          </div>
+          <!-- pax of children -->
+        </div>
+
+        <div class="row marginForm">  
+          <!-- pax of infant -->
+          <label for="paxInfant" class="col-sm-4 form-control-label">Number of pax of infant<small> (0-12 mons)</small></label>
+          
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="paxInfant" placeholder="">
+          </div>
+          <!-- pax of infant -->
+        </div>   
+      </div>
+
+      <!-- submit button   -->
+      <div class="row col-sm-5">
+        <button type="submit" class="btn btn-success">Submit</button>
+      </div>  
+      <!-- submit button   -->
+
+
+    </form>
+    <!-- application form -->
+
+    <!-- Required JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="lib/tether/js/tether.min.js"></script>
+    <script src="lib/stellar/stellar.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/easing/easing.js"></script>
+    <script src="lib/stickyjs/sticky.js"></script>
+    <script src="lib/parallax/parallax.js"></script>
+    <script src="lib/lockfixed/lockfixed.min.js"></script>
+    
+    <!-- Template Specisifc Custom Javascript File -->
+    <script src="js/custom.js"></script>
+    
+    <script src="contactform/contactform.js"></script>
+    
+  </body>
+</html>
