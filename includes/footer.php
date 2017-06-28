@@ -34,5 +34,13 @@
     $('ul.tabs').tabs('select_tab', 'tab_id');
     $('.carousel').carousel();
     $('.carousel.carousel-slider').carousel({fullWidth: true});
+    $('.modal').modal();
+    $('.datepicker').pickadate({
+        selectMonths: true, 
+        selectYears: 100,
+        close: 'Done'
+    });
+    $('select').material_select();
+
 	});
 </script>

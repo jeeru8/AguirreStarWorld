@@ -12,6 +12,7 @@
 			<li><a href="collapsible.php">Visa Assistance</a></li>
 			<li><a href="collapsible.php">Pay Center</a></li>
 			<li><a href="collapsible.php">Contact Us</a></li>
+			<li><a href="login.php">Account</a></li>
 		</ul>
 	</div>
 
@@ -19,6 +20,7 @@
 	<ul id="tourMenu" class="dropdown-content">
 		<li><a href="international_tour.php">International</a></li>
 		<li><a href="domestic_tour.php">Domestic</a></li>
+		<li><a href="cruise.php">Cruise</a></li>
 	</ul>
 
 	<!-- Services Menu -->

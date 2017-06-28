@@ -543,3 +543,24 @@ nav {
   background-color: #199EB8;
   height: 5px;
 }
+
+.setFix {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.row {
+  margin-bottom: 0px !important;
+}
+
+.input-field.inline input, .input-field.inline .select-dropdown {
+  height: 2rem;
+}
+
+form p {
+  padding-top: 1rem;
+}
+form h3 {
+  color: #199EB8;
+}

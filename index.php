@@ -9,12 +9,12 @@
     <section class="hero">
       <div class="container text-center">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col s12">
             <a>Logo Here</a>
           </div>
         </div>
 
-        <div class="col-md-12">
+        <div class="col s12">
           <h1>
            Aguirre Star World
           </h1>
@@ -22,7 +22,7 @@
           <p class="tagline">
               Travel and Tours
           </p>
-          <a class="btn btn-large" href="#about">Get Started Now</a>
+          <a class="btn btn-large" href="#start">Get Started Now</a>
         </div>
       </div>
       
@@ -30,10 +30,10 @@
     <!-- /Hero -->
 
     <!-- nav bar -->
-	<!-- <header class="navbar-fixed"> -->
+	<div class="setFix">
 
 	    <?php include "includes/navbar.php" ?>
-	<!-- </header>   -->
+	</div>  
  	<!-- nav bar -->
 	
 	<!-- about section -->
@@ -361,6 +361,30 @@
     		</div>
     	</div>
     </section>
+
+    <div id="start" class="modal">
+        <div class="modal-content">
+            <!-- sign up button -->
+            <div class="row center-align">
+
+                <a class="btn col s12 l6">
+                    <i class="fa fa-ticket fa-3x" aria-hidden="true"></i>
+                    Sign up as Passenger
+                </a>
+
+                <a class="btn col s12 l6">
+                    <i class="fa fa-id-card fa-3x" aria-hidden="true"></i>
+                    Sign up as Driver
+
+                </a>
+
+            </div>
+
+            <!-- form -->
+            <div class="row">             
+            </div>
+        </div>
+    </div>
 
 	<?php include "includes/footer.php" ?>
 
