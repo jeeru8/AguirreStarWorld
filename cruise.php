@@ -13,7 +13,7 @@
 
   <!-- parallax -->
   <div class="parallax-container">
-  	<div class="parallax"><img src="img/86477661.jpg"></div>
+  	<div class="parallax"><img src="img/banner/86477661.jpg"></div>
   </div>
   <!-- parallax -->
 
