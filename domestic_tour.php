@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html ng-app="myApp">
+<html>
 <head>
-	<title>Domestic Tours | Aguirre Star Worldwide Travel Corporation</title>
+  <title>Domestic Tours | Aguirre Star Worldwide Travel Corporation</title>
   <?php include "includes/header.php" ?>
 </head>
-<body ng-controller="tourController" ng-init="init()">
-	<!-- navbar -->
+<body>
+  <!-- navbar -->
   <div class="navbar-fixed">  
       <?php include "includes/navbar.php" ?>
   </div>
@@ -13,46 +13,52 @@
 
   <!-- parallax -->
   <div class="parallax-container">
-  	<div class="parallax"><img src="img/banner/13925172.jpg"></div>
+    <div class="parallax"><img src="img/banner/86477661.jpg"></div>
   </div>
   <!-- parallax -->
 
   <!-- gallery -->
     <h2 class="titleForm center">
-      Cruise
+      Domestic Tours
     </h2>
   <div class="container">
 
     <div class="row">
       <div class="col s12">
-        <ul class="tabs">
-          <li class="tab"><a href="#starcruise"><img src="img/icons/starcruise.jpg"></a></li>
-          <li class="tab"><a href="#dreamcruise"><img src="img/icons/dreamcruise.jpg"></a></li>
-          <li class="tab"><a href="#princesscruise"><img src="img/icons/princesscruise.jpg"></a></li>
+        <ul id="domesticTour" class="tabs tabs-logo">
+          <li class="tab"><a href="#batanes"><img src="img/icons/batanes.jpg"></a></li>
+          <li class="tab"><a href="#bohol"><img src="img/icons/bohol.jpg"></a></li>
+          <li class="tab"><a href="#boracay"><img src="img/icons/boracay.jpg"></a></li>
+          <li class="tab"><a href="#cebu"><img src="img/icons/cebu.jpg"></a></li>
+          <li class="tab"><a href="#davao"><img src="img/icons/davao.jpg"></a></li>
+          <li class="tab"><a href="#ilocos"><img src="img/icons/ilocos.jpg"></a></li>
+          <li class="tab"><a href="#manila"><img src="img/icons/manila.jpg"></a></li>
+          <li class="tab"><a href="#palawan"><img src="img/icons/palawan.jpg"></a></li>
+          <li class="tab"><a href="#other"><img src="img/icons/other.jpg"></a></li>
         </ul>
-        <div id="starcruise" class="row">
+        <div id="batanes" class="col s12">
           <div class="col s12">
-            <div class="card">
+            <div class="card horizontal">
               <div class="card-image">
-                <img src="img/packages/starcruise1.jpg" width="100%">
+                <img src="img/packages/batanes1.jpg" width="100%">
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <div class="left-align">
-                    <p>
-                    Dec 20, 27
-                    </p>
-                    <br>
-                    <span>
-                      • Bangkok Thailand<br>
-                      • Sihanoukville Cambodia  
-                    </span>
-                  </div>
+                  <h3>
+                    BATANES: THE DISTANT NORTH & HOME OF THE WINDS (BUDGET) [3N4D]
+                  <br>
+                    MARFEL'S LODGE (A/C)
+                  </h3>
+                  <p>
+                  Selling Period  JUL 03 2017 - NOV 27 2017
+                  <br>
+                  Travel Date JUL 03 2017 - NOV 30 2017
+                  </p>
                   <div class="right-align">
 
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">$ 251</span>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP  8,550 /PAX</span>
                     <br>
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">(Rate per person)</span>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
 
                   </div> 
                     
@@ -65,90 +71,27 @@
           </div>
 
           <div class="col s12">
-            <div class="card">
+            <div class="card horizontal">
               <div class="card-image">
-                <img src="img/packages/starcruise2.jpg" width="100%">
+                <img src="img/packages/batanes2.jpg" width="100%">
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <div class="left-align">
-                    <p>
-                    Dec 22, 29
-                    </p>
-                    <br>
-                    <span>
-                      • Bangkok Thailand<br>
-                      • Ko Samui Thailand
-                    </span>
-                  </div>
+                  <h3>
+                    BATANES: THE DISTANT NORTH & HOME OF THE WINDS (STANDARD) [3N4D]
+                  <br>
+                    BATANES SEASIDE (A/C)
+                  </h3>
+                  <p>
+                  Selling Period  JUL 03 2017 - NOV 27 2017
+                  <br>
+                  Travel Date JUL 03 2017 - NOV 30 2017
+                  </p>
                   <div class="right-align">
 
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">$ 279</span>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 8,550 /PAX</span>
                     <br>
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">(Rate per person)</span>
-
-                  </div> 
-                    
-                </div>
-                <div class="card-action right-align">
-                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="dreamcruise" class="row">
-          <div class="col s12">
-            <div class="card">
-              <div class="card-image">
-                <img src="img/packages/dreamcruise1.jpg" width="100%">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <div class="left-align">
-                    <p>
-                    Dec 08, 15, 22, 29
-                    </p>
-                    <br>
-                    <span>
-                    </span>
-                  </div>
-                  <div class="right-align">
-
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">$ 260</span>
-                    <br>
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">(Rate per person)</span>
-
-                  </div> 
-                    
-                </div>
-                <div class="card-action right-align">
-                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12">
-            <div class="card">
-              <div class="card-image">
-                <img src="img/packages/dreamcruise2.jpg" width="100%">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <div class="left-align">
-                    <p>
-                    Jul 07, 14, 21, 28 | Aug 04, 11, 18, 25 | Sep 01, 08, 15, 22, 29 | Oct 06, 13
-                    </p>
-                    <br>
-                    <span>
-                    </span>
-                  </div>
-                  <div class="right-align">
-
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">$ 290</span>
-                    <br>
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">(Rate per person)</span>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
 
                   </div> 
                     
@@ -160,8 +103,475 @@
             </div>
           </div>
         </div>
-        <div id="princesscruise" class="row">
+        <div id="bohol" class="row">
           <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/bohol1.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    BOHOL ULTIMATE GATEWAY (STANDARD) [2N3D]
+                  <br>
+                    BOHOL PLAZA RESORT AND RESTAURANT (EXECUTIVE ROOM)
+                  </h3>
+                  <p>
+                  Selling Period  MAR 25 2017 - DEC 24 2017
+                  <br>
+                  Travel Date MAR 25 2017 - DEC 30 2017
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 5,390 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/bohol2.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    BOHOL ULTIMATE GATEWAY (STANDARD) [2N3D]
+                  <br>
+                    DUMALUAN BEACH RESORT (SUPERIOR DELUXE)
+                  </h3>
+                  <p>
+                  Selling Period  MAR 25 2017 - DEC 24 2017
+                  <br>
+                  Travel Date MAR 25 2017 - DEC 30 2017
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 5,750 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="boracay" class="col s12">
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/boracay1.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    BORACAY SAILING BOAT (BUDGET) [2N3D]
+                  <br>
+                    ARWANA HOTEL & RESTAURANT (STANDARD)
+                  </h3>
+                  <p>
+                  Selling Period  MAR 21 2017 - MAR 24 2018
+                  <br>
+                  Travel Date MAR 22 2017 - MAR 31 2018
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 4,395 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/boracay2.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    BORACAY ISLAND HOPPING(BUDGET) [2N3D]
+                  <br>
+                    ISLAND INN BORACAY (OR SIMILAR CLASS)
+                  </h3>
+                  <p>
+                  Selling Period  MAR 21 2017 - DEC 24 2017
+                  <br>
+                  Travel Date Travel Date MAR 22 2017 - DEC 31 2017
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 4,700 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cebu" class="col s12">
+
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/cebu1.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    ANTIQUITY IN CEBU (STANDARD) [2N3D]
+                  <br>
+                    BAYFRONT HOTEL CEBU (STANDARD ROOM)
+                  </h3>
+                  <p>
+                  Selling Period  MAR 23 2017 - MAR 31 2018
+                  <br>
+                  Travel Date MAR 25 2017 - MAR 31 2018
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 5,300 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/cebu2.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    ANTIQUITY IN CEBU (HIGHEND) [2N3D]
+                  <br>
+                    QUEST HOTEL AND CONFERENCE CENTER (DELUXE ROOM)
+                  </h3>
+                  <p>
+                  Selling Period  MAR 23 2017 - MAR 24 2018
+                  <br>
+                  Travel Date MAR 25 2017 - MAR 31 2018
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 6,600 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="davao" class="col s12">
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/davao1.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    FREE & EASY IN DAVAO ( BUDGET ) [2N3D]
+                  <br>
+                    CROWN REGENCY DAVAO (STANDARD)
+                  </h3>
+                  <p>
+                  Selling Period  APR 01 2017 - MAR 24 2018
+                  <br>
+                  Travel Date APR 01 2017 - MAR 31 2018
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 3,550 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/davao2.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    FREE & EASY IN DAVAO ( HIGH END ) [2N3D]
+                  <br>
+                    WATERFRONT INSULAR HOTEL DAVAO (STANDARD)
+                  </h3>
+                  <p>
+                  Selling Period  APR 01 2017 - MAR 24 2018
+                  <br>
+                  Travel Date APR 01 2017 - MAR 31 2018
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 4,950 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="ilocos" class="col s12">
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/ilocos.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    ILOCOS PACKAGE (JOINING GROUP TOUR) [2N3D]
+                  <br>
+                    LA ELLIANA HOTEL (STANDARD)
+                  </h3>
+                  <p>
+                  Selling Period  MAR 01 2017 - SEP 30 2017
+                  <br>
+                  Travel Date MAR 01 2017 - SEP 30 2017
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 4,255 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="manila" class="col s12">
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/manila.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    NOBU HOTEL & SPA PACKAGE [1N2D]
+                  <br>
+                    NOBU CITY OF DREAMS MANILA (NOBU DELUXE)
+                  </h3>
+                  <p>
+                  Selling Period  JAN 02 2017 - JUL 24 2017
+                  <br>
+                  Travel Date JAN 02 2017 - AUG 01 2017
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 8,820 /ROOM</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="palawan" class="col s12">
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/palawan1.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    CITY PARADISE OF PUERTO PRINCESA (BUDGET) [2N3D]
+                  <br>
+                    IPIL SUITES (STANDARD ROOM)
+                  </h3>
+                  <p>
+                  Selling Period  MAR 21 2017 - DEC 24 2017
+                  <br>
+                  Travel Date MAR 25 2017 - DEC 30 2017
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 3,300 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/palawan2.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    CITY PARADISE OF PUERTO PRINCESA (STANDARD) [2N3D]
+                  <br>
+                    CITYSTATE ASTURIAS HOTEL (STANDARD ROOM)
+                  </h3>
+                  <p>
+                  Selling Period  MAR 21 2017 - DEC 24 2017
+                  <br>
+                  Travel Date MAR 25 2017 - DEC 30 2017
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 3,300 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="other" class="col s12">
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/other1.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    DUMAGUETE: THE GENTLE CITY (STANDARD) [2N3D]
+                  <br>
+                    HOTEL ESSENCIA (DELUXE TWIN)
+                  </h3>
+                  <p>
+                  Selling Period  APR 01 2017 - DEC 15 2017
+                  <br>
+                  Travel Date APR 01 2017 - DEC 15 2017
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 5,627 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/packages/other2.jpg" width="100%">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h3>
+                    DUMAGUETE: THE GENTLE CITY (BUDGET) [2N3D]
+                  <br>
+                    MANHATTAN SUITES INN (TWIN DELUXE)
+                  </h3>
+                  <p>
+                  Selling Period  APR 01 2017 - DEC 31 2017
+                  <br>
+                  Travel Date APR 01 2017 - DEC 31 2017
+                  </p>
+                  <div class="right-align">
+
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 5,730 /PAX</span>
+                    <br>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+
+                  </div> 
+                    
+                </div>
+                <div class="card-action right-align">
+                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>  

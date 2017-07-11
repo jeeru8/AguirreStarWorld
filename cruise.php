@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <head>
-	<title>Domestic Tours | Aguirre Star Worldwide Travel Corporation</title>
+  <title>Cruise | Aguirre Star Worldwide Travel Corporation</title>
   <?php include "includes/header.php" ?>
 </head>
-<body>
-	<!-- navbar -->
+<body ng-controller="tourController" ng-init="init()">
+  <!-- navbar -->
   <div class="navbar-fixed">  
       <?php include "includes/navbar.php" ?>
   </div>
@@ -13,7 +13,7 @@
 
   <!-- parallax -->
   <div class="parallax-container">
-  	<div class="parallax"><img src="img/banner/86477661.jpg"></div>
+    <div class="parallax"><img src="img/banner/13925172.jpg"></div>
   </div>
   <!-- parallax -->
 
@@ -25,35 +25,34 @@
 
     <div class="row">
       <div class="col s12">
-        <ul id="domesticTour" class="tabs">
-          <li class="tab col s3"><a href="#bohol">Bohol</a></li>
-          <li class="tab col s3"><a href="#boracay">Boracay</a></li>
-          <li class="tab col s3"><a href="#cebu">Cebu</a></li>
-          <li class="tab col s3"><a href="#palawan">Palawan</a></li>
+        <ul class="tabs tabs-logo">
+          <li class="tab"><a href="#starcruise"><img src="img/icons/starcruise.jpg"></a></li>
+          <li class="tab"><a href="#dreamcruise"><img src="img/icons/dreamcruise.jpg"></a></li>
+          <li class="tab"><a href="#princesscruise"><img src="img/icons/princesscruise.jpg"></a></li>
         </ul>
-        <div id="bohol" class="row">
+        <div id="starcruise" class="row">
           <div class="col s12">
-            <div class="card horizontal">
+            <div class="card">
               <div class="card-image">
-                <img src="img/bohol.jpg" width="100%">
+                <img src="img/packages/starcruise1.jpg" width="100%">
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <h3>
-                    ISLAND PARADISE OF BOHOL (LUXURY) [2N3D]
-                  <br>
-                    HENANN RESORT ALONA BEACH (DELUXE ROOM)
-                  </h3>
-                  <p>
-                  Selling Period  MAR 25 2017 - MAR 24 2018
-                  <br>
-                  Travel Date MAR 25 2017 - MAR 31 2018
-                  </p>
+                  <div class="left-align">
+                    <p>
+                    Dec 20, 27
+                    </p>
+                    <br>
+                    <span>
+                      • Bangkok Thailand<br>
+                      • Sihanoukville Cambodia  
+                    </span>
+                  </div>
                   <div class="right-align">
 
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 7,800 /PAX</span>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">$ 251</span>
                     <br>
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">(Rate per person)</span>
 
                   </div> 
                     
@@ -66,27 +65,27 @@
           </div>
 
           <div class="col s12">
-            <div class="card horizontal">
+            <div class="card">
               <div class="card-image">
-                <img src="img/bohol.jpg" width="100%">
+                <img src="img/packages/starcruise2.jpg" width="100%">
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <h3>
-                    ISLAND PARADISE OF BOHOL (LUXURY) [2N3D]
-                  <br>
-                    HENANN RESORT ALONA BEACH (DELUXE ROOM)
-                  </h3>
-                  <p>
-                  Selling Period  MAR 25 2017 - MAR 24 2018
-                  <br>
-                  Travel Date MAR 25 2017 - MAR 31 2018
-                  </p>
+                  <div class="left-align">
+                    <p>
+                    Dec 22, 29
+                    </p>
+                    <br>
+                    <span>
+                      • Bangkok Thailand<br>
+                      • Ko Samui Thailand
+                    </span>
+                  </div>
                   <div class="right-align">
 
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 7,800 /PAX</span>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">$ 279</span>
                     <br>
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">(Rate per person)</span>
 
                   </div> 
                     
@@ -97,31 +96,28 @@
               </div>
             </div>
           </div>
-
         </div>
-        <div id="boracay" class="col s12">
+        <div id="dreamcruise" class="row">
           <div class="col s12">
-            <div class="card horizontal">
+            <div class="card">
               <div class="card-image">
-                <img src="img/boracay.jpg" width="100%">
+                <img src="img/packages/dreamcruise1.jpg" width="100%">
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <h3>
-                    ISLAND PARADISE OF BOHOL (LUXURY) [2N3D]
-                  <br>
-                    HENANN RESORT ALONA BEACH (DELUXE ROOM)
-                  </h3>
-                  <p>
-                  Selling Period  MAR 25 2017 - MAR 24 2018
-                  <br>
-                  Travel Date MAR 25 2017 - MAR 31 2018
-                  </p>
+                  <div class="left-align">
+                    <p>
+                    Dec 08, 15, 22, 29
+                    </p>
+                    <br>
+                    <span>
+                    </span>
+                  </div>
                   <div class="right-align">
 
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 7,800 /PAX</span>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">$ 260</span>
                     <br>
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">(Rate per person)</span>
 
                   </div> 
                     
@@ -134,27 +130,25 @@
           </div>
 
           <div class="col s12">
-            <div class="card horizontal">
+            <div class="card">
               <div class="card-image">
-                <img src="img/boracay.jpg" width="100%">
+                <img src="img/packages/dreamcruise2.jpg" width="100%">
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <h3>
-                    ISLAND PARADISE OF BOHOL (LUXURY) [2N3D]
-                  <br>
-                    HENANN RESORT ALONA BEACH (DELUXE ROOM)
-                  </h3>
-                  <p>
-                  Selling Period  MAR 25 2017 - MAR 24 2018
-                  <br>
-                  Travel Date MAR 25 2017 - MAR 31 2018
-                  </p>
+                  <div class="left-align">
+                    <p>
+                    Jul 07, 14, 21, 28 | Aug 04, 11, 18, 25 | Sep 01, 08, 15, 22, 29 | Oct 06, 13
+                    </p>
+                    <br>
+                    <span>
+                    </span>
+                  </div>
                   <div class="right-align">
 
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 7,800 /PAX</span>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">$ 290</span>
                     <br>
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
+                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">(Rate per person)</span>
 
                   </div> 
                     
@@ -165,144 +159,10 @@
               </div>
             </div>
           </div>
-
         </div>
-        <div id="cebu" class="col s12">
-
+        <div id="princesscruise" class="row">
           <div class="col s12">
-            <div class="card horizontal">
-              <div class="card-image">
-                <img src="img/cebu.jpg" width="100%">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <h3>
-                    ISLAND PARADISE OF BOHOL (LUXURY) [2N3D]
-                  <br>
-                    HENANN RESORT ALONA BEACH (DELUXE ROOM)
-                  </h3>
-                  <p>
-                  Selling Period  MAR 25 2017 - MAR 24 2018
-                  <br>
-                  Travel Date MAR 25 2017 - MAR 31 2018
-                  </p>
-                  <div class="right-align">
-
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 7,800 /PAX</span>
-                    <br>
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
-
-                  </div> 
-                    
-                </div>
-                <div class="card-action right-align">
-                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
           </div>
-
-          <div class="col s12">
-            <div class="card horizontal">
-              <div class="card-image">
-                <img src="img/cebu.jpg" width="100%">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <h3>
-                    ISLAND PARADISE OF BOHOL (LUXURY) [2N3D]
-                  <br>
-                    HENANN RESORT ALONA BEACH (DELUXE ROOM)
-                  </h3>
-                  <p>
-                  Selling Period  MAR 25 2017 - MAR 24 2018
-                  <br>
-                  Travel Date MAR 25 2017 - MAR 31 2018
-                  </p>
-                  <div class="right-align">
-
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 7,800 /PAX</span>
-                    <br>
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
-
-                  </div> 
-                    
-                </div>
-                <div class="card-action right-align">
-                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div id="palawan" class="col s12">
-          <div class="col s12">
-            <div class="card horizontal">
-              <div class="card-image">
-                <img src="img/palawan.jpg" width="100%">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <h3>
-                    ISLAND PARADISE OF BOHOL (LUXURY) [2N3D]
-                  <br>
-                    HENANN RESORT ALONA BEACH (DELUXE ROOM)
-                  </h3>
-                  <p>
-                  Selling Period  MAR 25 2017 - MAR 24 2018
-                  <br>
-                  Travel Date MAR 25 2017 - MAR 31 2018
-                  </p>
-                  <div class="right-align">
-
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 7,800 /PAX</span>
-                    <br>
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
-
-                  </div> 
-                    
-                </div>
-                <div class="card-action right-align">
-                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12">
-            <div class="card horizontal">
-              <div class="card-image">
-                <img src="img/palawan.jpg" width="100%">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <h3>
-                    ISLAND PARADISE OF BOHOL (LUXURY) [2N3D]
-                  <br>
-                    HENANN RESORT ALONA BEACH (DELUXE ROOM)
-                  </h3>
-                  <p>
-                  Selling Period  MAR 25 2017 - MAR 24 2018
-                  <br>
-                  Travel Date MAR 25 2017 - MAR 31 2018
-                  </p>
-                  <div class="right-align">
-
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 30px;">PHP 7,800 /PAX</span>
-                    <br>
-                    <span style="color: #ff9800; font-weight: 600; font-family: Verannda; font-size: 11px; padding-top: 19px; padding-right: 2px;">Minimum 2Pax </span>
-
-                  </div> 
-                    
-                </div>
-                <div class="card-action right-align">
-                  <a type="btn" href="tour_details.php">see more details <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>  
     </div>  

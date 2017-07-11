@@ -22,7 +22,7 @@
           <p class="tagline">
               Travel and Tours
           </p>
-          <a class="btn btn-large" href="#start">Get Started Now</a>
+          <a class="btn btn-large" href="#about">Get Started Now</a>
         </div>
       </div>
       
@@ -30,7 +30,7 @@
     <!-- /Hero -->
 
     <!-- nav bar -->
-	<div class="setFix">
+	<div>
 
 	    <?php include "includes/navbar.php" ?>
 	</div>  
@@ -72,63 +72,75 @@
     <section class="features" id="features">
     	<div class="container">
     		<h2 class="center">
-    			Airline Ticketing
+    			TOURS
     		</h2>
 
     		<div class="row">
-    			<div class="feature-col col l4 s12 center">
-					<div>
-						<div class="feature-icon">
-							<span class="fa fa-gear"></span>
-						</div>
-					</div>
+    			<a href="international_tour.php">
+                    <div class="feature-col col l4 s12 center theme-color">
+    					<div class="row">
+    						<div class="col s10 push-s1">
+                                <br>
+                                <br>
+    							<img src="img/international-new.jpg" width="100%">
+    						</div>
+    					</div>
 
-					<div>
-						<h3>
-							Sample
-						</h3>
+    					<div>
+    						<h3 class="white-text">
+    							International Tours
+    						</h3>
 
-						<p>
-							Sample
-						</p>
-					</div>
-    			</div>
+    						<p class="white-text">
+    							See packages...
+    						</p>
+    					</div>
+        			</div>
+                </a>
 
-    			<div class="feature-col col l4 s12 center">
-					<div>
-						<div class="feature-icon">
-							<span class="fa fa-gear"></span>
-						</div>
-					</div>
+    			<a href="domestic_tour.php">
+                    <div class="feature-col col l4 s12 center">
+                        <div class="row">
+                            <div class="col s10 push-s1">
+                                <br>
+                                <br>
+                                <img src="img/domestic-new.jpg" width="100%">
+                            </div>
+                        </div>
 
-					<div>
-						<h3>
-							Sample
-						</h3>
+    					<div>
+    						<h3>
+    							Domestic Tours
+    						</h3>
 
-						<p>
-							Sample
-						</p>
-					</div>
-    			</div>
+    						<p>
+    							See packages...
+    						</p>
+    					</div>
+        			</div>
+                </a>
 
-    			<div class="feature-col col l4 s12 center">
-					<div>
-						<div class="feature-icon">
-							<span class="fa fa-gear"></span>
-						</div>
-					</div>
+                <a href="cruise.php">
+        			<div class="feature-col col l4 s12 center theme-color">
+                        <div class="row">
+                            <div class="col s10 push-s1">
+                                <br>
+                                <br>
+                                <img src="img/cruise-new.jpg" width="100%">
+                            </div>
+                        </div>
 
-					<div>
-						<h3>
-							Sample
-						</h3>
+    					<div>
+    						<h3 class="white-text">
+    							Cruise
+    						</h3>
 
-						<p>
-							Sample
-						</p>
-					</div>
-    			</div>
+    						<p class="white-text">
+    							See packages...
+    						</p>
+    					</div>
+        			</div>
+                </a>
     		</div>
 
     		<div class="row">
@@ -153,9 +165,9 @@
 
     	<div class="portfolio-grid">
     		<div class="row">
-    			<div class="col l3 m6 s12">
+    			<div class="col l4 m6 s12">
     				<div class="card card-block">
-    					<a href="#"><img alt="" src="img/porf-1.jpg">
+    					<a href="#"><img alt="" src="img/packages/africa1.jpg" width="100%">
     						<div class="portfolio-over">
     							<div>
     								<h3 class="card-title">
@@ -171,9 +183,9 @@
     				</div>
     			</div>
 
-    			<div class="col l3 m6 s12">
+    			<div class="col l4 m6 s12">
     				<div class="card card-block">
-    					<a href="#"><img alt="" src="img/porf-2.jpg">
+    					<a href="#"><img alt="" src="img/packages/hmt1.jpg">
     						<div class="portfolio-over">
     							<div>
     								<h3 class="card-title">
@@ -189,9 +201,9 @@
     				</div>
     			</div>
 
-    			<div class="col l3 m6 s12">
+    			<div class="col l4 m6 s12">
     				<div class="card card-block">
-    					<a href="#"><img alt="" src="img/porf-3.jpg">
+    					<a href="#"><img alt="" src="img/packages/dubai.jpg">
     						<div class="portfolio-over">
     							<div>
     								<h3 class="card-title">
@@ -207,29 +219,9 @@
     				</div>
     			</div>
 
-    			<div class="col l3 m6 s12">
+    			<div class="col l4 m6 s12">
     				<div class="card card-block">
-    					<a href="#"><img alt="" src="img/porf-4.jpg">
-    						<div class="portfolio-over">
-    							<div>
-    								<h3 class="card-title">
-    									Aguirre Star Tour Package
-    								</h3>
-
-    								<p class="card-text">
-    									Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-    								</p>
-    							</div>
-    						</div>
-    					</a>
-    				</div>
-    			</div>
-    		</div>
-
-    		<div class="row">
-    			<div class="col l3 m6 s12">
-    				<div class="card card-block">
-    					<a href="#"><img alt="" src="img/porf-5.jpg">
+    					<a href="#"><img alt="" src="img/packages/dreamcruise1.jpg">
     						<div class="portfolio-over">
     							<div>
     								<h3 class="card-title">
@@ -245,9 +237,9 @@
     				</div>
     			</div>
 
-    			<div class="col l3 m6 s12">
+    			<div class="col l4 m6 s12">
     				<div class="card card-block">
-    					<a href="#"><img alt="" src="img/porf-6.jpg">
+    					<a href="#"><img alt="" src="img/packages/holyland2.jpg">
     						<div class="portfolio-over">
     							<div>
     								<h3 class="card-title">
@@ -263,9 +255,9 @@
     				</div>
     			</div>
 
-    			<div class="col l3 m6 s12">
+    			<div class="col l4 m6 s12">
     				<div class="card card-block">
-    					<a href="#"><img alt="" src="img/porf-7.jpg">
+    					<a href="#"><img alt="" src="img/packages/single1.jpg">
     						<div class="portfolio-over">
     							<div>
     								<h3 class="card-title">
@@ -281,9 +273,9 @@
     				</div>
     			</div>
 
-    			<div class="col l3 m6 s12">
+    			<div class="col l4 m6 s12">
     				<div class="card card-block">
-    					<a href="#"><img alt="" src="img/porf-8.jpg">
+    					<a href="#"><img alt="" src="img/packages/multiple1.jpg">
     						<div class="portfolio-over">
     							<div>
     								<h3 class="card-title">
@@ -298,6 +290,43 @@
     					</a>
     				</div>
     			</div>
+
+    			<div class="col l4 m6 s12">
+    				<div class="card card-block">
+    					<a href="#"><img alt="" src="img/packages/spain2.jpg">
+    						<div class="portfolio-over">
+    							<div>
+    								<h3 class="card-title">
+    									Aguirre Star Tour Package
+    								</h3>
+
+    								<p class="card-text">
+    									Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+    								</p>
+    							</div>
+    						</div>
+    					</a>
+    				</div>
+    			</div>
+
+                <div class="col l4 m6 s12">
+                    <div class="card card-block">
+                        <a href="#"><img alt="" src="img/packages/starcruise1.jpg">
+                            <div class="portfolio-over">
+                                <div>
+                                    <h3 class="card-title">
+                                        Aguirre Star Tour Package
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
     		</div>
     	</div>
     </section>
@@ -361,30 +390,6 @@
     		</div>
     	</div>
     </section>
-
-    <div id="start" class="modal">
-        <div class="modal-content">
-            <!-- sign up button -->
-            <div class="row center-align">
-
-                <a class="btn col s12 l6">
-                    <i class="fa fa-ticket fa-3x" aria-hidden="true"></i>
-                    Sign up as Passenger
-                </a>
-
-                <a class="btn col s12 l6">
-                    <i class="fa fa-id-card fa-3x" aria-hidden="true"></i>
-                    Sign up as Driver
-
-                </a>
-
-            </div>
-
-            <!-- form -->
-            <div class="row">             
-            </div>
-        </div>
-    </div>
 
 	<?php include "includes/footer.php" ?>
 

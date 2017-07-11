@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Airline Ticketing | Aguirre Star Worldwide Travel Corporation</title>
+	<title>Ferry | Aguirre Star Worldwide Travel Corporation</title>
     <?php include "includes/header.php" ?>
 </head>
 <body>
@@ -19,7 +19,7 @@
         		
               <div class="card grey lighten-5">
                 <form class="card-content black-text">
-					<p class="center teal-text">Plan</p>
+					       <p class="center teal-text">Plan</p>
                     <!--plan-->
                     <div class="row">
                       <div class="col s3 l4 push-l2">
@@ -32,39 +32,6 @@
                       </div>
                     </div>
                     <br>	
-
-                    <!--no of adult-->
-                    <div class="row">
-                      <div class="col s4 l5 push-l1">
-                        <p class="teal-text darken-4">No. of pax Adult</p>
-                      </div>
-                      <div class="form-group input-field inline col s8 l5 push-l1">
-                        <input id="lastname" ng-model="account.lastName" type="text">
-                        <label for="lastname"></label>
-                      </div>
-                    </div>
-
-                    <!--no of Children-->
-                    <div class="row">
-                      <div class="col s4 l5 push-l1">
-                        <p class="teal-text darken-4">No. of pax Children</p>
-                      </div>
-                      <div class="form-group input-field inline col s8 l5 push-l1">
-                        <input id="lastname" ng-model="account.lastName" type="text">
-                        <label for="lastname"></label>
-                      </div>
-                    </div>
-
-                    <!--no of Infant-->
-                    <div class="row">
-                      <div class="col s4 l5 push-l1">
-                        <p class="teal-text darken-4">No. of pax Infant</p>
-                      </div>
-                      <div class="form-group input-field inline col s8 l5 push-l1">
-                        <input id="lastname" ng-model="account.lastName" type="text">
-                        <label for="lastname"></label>
-                      </div>
-                    </div>
 
                     <!--origin-->
                     <div class="row">

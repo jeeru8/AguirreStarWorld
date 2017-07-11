@@ -33,7 +33,7 @@
 
 		<div class="row" id="selectAsia" ng-show="selectAsia">
 	      <div class="col s12">
-	        <ul class="tabs">
+	        <ul class="tabs tabs-logo">
             <li class="tab"><a href="#korea"><img src="img/icons/korea.jpg"></a></li>
             <li class="tab"><a href="#japan"><img src="img/icons/japan.jpg"></a></li>
             <li class="tab"><a href="#china"><img src="img/icons/china.jpg"></a></li>
@@ -509,7 +509,7 @@
 	    </div> 
     <div class="row" id="selectEurope" ng-show="selectEurope">
         <div class="col s12">
-          <ul class="tabs">
+          <ul class="tabs tabs-logo">
             <li class="tab"><a href="#SingleCountry"><img src="img/icons/SingleCountry.jpg"></a></li>
             <li class="tab"><a href="#MultipleCountries"><img src="img/icons/MultipleCountries.jpg"></a></li>
             <li class="tab"><a href="#ScandinaviaIcelandRussia"><img src="img/icons/Scandinavia,Iceland&Russia.jpg"></a></li>
@@ -969,7 +969,7 @@
     </div>  
     <div class="row" id="selectOME" ng-show="selectOME">
         <div class="col s12">
-          <ul class="tabs">
+          <ul class="tabs tabs-logo">
             <li class="tab"><a href="#australia"><img src="img/icons/australia-newzealand.jpg"></a></li>
             <li class="tab"><a href="#dubai"><img src="img/icons/dubai.jpg"></a></li>
             <li class="tab"><a href="#holyland"><img src="img/icons/holyland.jpg"></a></li>
@@ -1182,7 +1182,7 @@
     </div>  
     <div class="row" id="selectAmerica" ng-show="selectAmerica">
         <div class="col s12">
-          <ul id="domesticTour" class="tabs">
+          <ul id="domesticTour" class="tabs tabs-logo">
             <li class="tab"><a href="#usaCanada"><img src="img/icons/usa-canada.jpg"></a></li>
             <li class="tab"><a href="#hawaiiGuam"><img src="img/icons/hawaii-guam.jpg"></a></li>
           </ul>
@@ -1199,7 +1199,7 @@
     </div>  
     <div class="row" id="selectUD" ng-show="selectUD">
         <div class="col s12">
-          <ul id="domesticTour" class="tabs">
+          <ul id="domesticTour" class="tabs tabs-logo">
             <li class="tab active"><a href="#africa"><img src="img/icons/south-africa.jpg"></a></li>
             <li class="tab"><a href="#himalayas"><img src="img/icons/himalayas.jpg"></a></li>
             <li class="tab"><a href="#maldives"><img src="img/icons/maldives.jpg"></a></li>
